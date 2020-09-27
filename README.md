@@ -1,6 +1,8 @@
 # Monogame-tools
 Free tools for Monogame development
 
+# BulletMonoGame
+
 This is a straight port of BulletXNA to Monogame
 
 The actual physics system compiles to a class library built against the same version of .Net that Monogame uses so to use it you just need to add a reference in your Monogame app.
@@ -9,5 +11,15 @@ The demos have been restructured so they are included in a single application in
 
 They have not been debugged or modified and have several bugs which could easily be fixed, but that is a task for other people.
 
+#LibraryDemos
 
+I am sick of constantly copying code about, so I have started creating class libraries for code I use a lot
+
+In this tool I am creating libraries with demos for MonoGame 
+
+So far this contains
+
+## LibNoise 
+   The classic noise library in C# and using MonoGame types
+   
 
