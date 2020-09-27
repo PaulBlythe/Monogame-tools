@@ -27,11 +27,13 @@ namespace LibraryDemos
         Rectangle[] Buttons = new Rectangle[]
         {
             new Rectangle(20, 60, 200, 32),
+            new Rectangle(20, 110, 200, 32),
         };
 
         string[] ButtonText = new string[]
         {
             "LibNoise",
+            "LTree",
         };
 
         public Game1()
@@ -118,6 +120,15 @@ namespace LibraryDemos
                                 case 0:
                                     {
                                         current_demo = new LibNoiseDemo();
+                                        current_demo.Initialise(GraphicsDevice, Content);
+                                        ContentManager manager = new ContentManager(Content.ServiceProvider, Content.RootDirectory);
+                                        current_demo.Initialise(GraphicsDevice, manager);
+                                    }
+                                    break;
+
+                                case 1:
+                                    {
+                                        current_demo = new LTreeDemo();
                                         current_demo.Initialise(GraphicsDevice, Content);
                                         ContentManager manager = new ContentManager(Content.ServiceProvider, Content.RootDirectory);
                                         current_demo.Initialise(GraphicsDevice, manager);
