@@ -41,9 +41,11 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DemoHelpers\QuatCamera.cs" />
     <Compile Include="Demos\DemoClass.cs" />
     <Compile Include="Demos\LibNoiseDemo.cs" />
     <Compile Include="Demos\LTreeDemo.cs" />
+    <Compile Include="Demos\Q3Demo.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Primitives2D.cs" />
     <Compile Include="Program.cs" />
@@ -58,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Leaves.fx" />
+    <Content Include="Content\Q3\basicQ3Effect.fx" />
     <Content Include="Content\Trees\beil2.jpg" />
     <Content Include="Content\Trees\BirchBark.png" />
     <Content Include="Content\Trees\BirchLeaf.png" />
@@ -102,6 +105,10 @@
     <ProjectReference Include="..\LTree\LTree.csproj">
       <Project>{846e3bc1-1d47-4a33-9d52-17e4b6e5df1f}</Project>
       <Name>LTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quake3\Quake3.csproj">
+      <Project>{17619bf0-c665-495b-9a9f-db8845f4a6a1}</Project>
+      <Name>Quake3</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

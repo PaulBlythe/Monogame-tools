@@ -26,6 +26,12 @@
 /processorParam:TextureFormat=Compressed
 /build:MenuFont.spritefont
 
+#begin Q3/basicQ3Effect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Q3/basicQ3Effect.fx
+
 #begin Trees/beil2.jpg
 /importer:TextureImporter
 /processor:TextureProcessor

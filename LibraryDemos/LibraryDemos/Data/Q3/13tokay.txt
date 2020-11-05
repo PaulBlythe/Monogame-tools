@@ -1,0 +1,37 @@
+___________
+Tokay Arena
+¯¯¯¯¯¯¯¯¯¯¯
+Game			: Quake 3 Arena
+Map Title		: Tokay Arena (by sst13)
+Map Filenames		: 13tokay.bsp
+Relase Date		: 8. August 2019
+
+Author			: Stefan Scholz "sst13"
+e-Mail			: sst13@gmx.de
+Author Homepage		: http://www.sst13.de
+
+Description		: Remake/Remix of Leone's Remake/Remix (Tokay's Tourney) of the well known "Tokay's Towers" from Quake2
+
+
+Player			: 4-12
+Gametypes		: FFA, Tourney, TDM
+Botsupport		: Yes
+
+New Textures		: Yes, Wasted (by Lunaran), eQ2 (by Evillair)
+New Shaders		: Yes
+New Sounds		: pt1_strt.wav, pt1_end.wav (taken from Quake2)
+New Models		: anchor_fork (by sst13)
+			  anchor_fork2 (by sst13)
+			  anchor_plates (by sst13)
+			  column (by sst13)
+			  eq2_banner_red (by sst13)
+			  shotgun (modified original model)
+			  skull (modified original model)
+			  skull_shiny (modified original model)
+			  vent (by sst13)
+
+Editors used		: Q3Radiant v2.02 , Q3Map Explorer, q3map2 v2.5.17, q3ASE v1.5.3, NPhernos MD3 Compiler, Milkshape 3D v1.7.8
+Compile Machine		: Intel core i5 with 8GB RAM
+Compile Time		: 3min
+
+Credits			: id Software & Leone, Q3W Editing Forum & all "Bus Station tnucs"

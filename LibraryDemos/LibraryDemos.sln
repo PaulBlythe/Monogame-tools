@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNoise", "LibNoise\LibNoi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTree", "LTree\LTree.csproj", "{846E3BC1-1D47-4A33-9D52-17E4B6E5DF1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quake3", "Quake3\Quake3.csproj", "{17619BF0-C665-495B-9A9F-DB8845F4A6A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,14 @@ Global
 		{846E3BC1-1D47-4A33-9D52-17E4B6E5DF1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{846E3BC1-1D47-4A33-9D52-17E4B6E5DF1F}.Release|x86.ActiveCfg = Release|Any CPU
 		{846E3BC1-1D47-4A33-9D52-17E4B6E5DF1F}.Release|x86.Build.0 = Release|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{17619BF0-C665-495B-9A9F-DB8845F4A6A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

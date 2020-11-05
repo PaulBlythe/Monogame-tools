@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17619BF0-C665-495B-9A9F-DB8845F4A6A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quake3</RootNamespace>
+    <AssemblyName>Quake3</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.7.0.1708, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Projects\StrategicAirCombat\bin\x64\Release\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q3BSPBiQuadPatch.cs" />
+    <Compile Include="Q3BSPBrush.cs" />
+    <Compile Include="Q3BSPBrushSide.cs" />
+    <Compile Include="Q3BSPCollisionData.cs" />
+    <Compile Include="Q3BSPConstants.cs" />
+    <Compile Include="Q3BSPDirEntry.cs" />
+    <Compile Include="Q3BSPEffect.cs" />
+    <Compile Include="Q3BSPEntity.cs" />
+    <Compile Include="Q3BSPEntityManager.cs" />
+    <Compile Include="Q3BSPFace.cs" />
+    <Compile Include="Q3BSPFaceComparer.cs" />
+    <Compile Include="Q3BSPLeaf.cs" />
+    <Compile Include="Q3BSPLevel.cs" />
+    <Compile Include="Q3BSPLightMapData.cs" />
+    <Compile Include="Q3BSPLightMapManager.cs" />
+    <Compile Include="Q3BSPLightVolume.cs" />
+    <Compile Include="Q3BSPModel.cs" />
+    <Compile Include="Q3BSPNode.cs" />
+    <Compile Include="Q3BSPPlane.cs" />
+    <Compile Include="Q3BSPShaderManager.cs" />
+    <Compile Include="Q3BSPTextureData.cs" />
+    <Compile Include="Q3BSPVertex.cs" />
+    <Compile Include="Q3BSPVisData.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
