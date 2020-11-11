@@ -28,3 +28,6 @@ So far this contains
 ## Quake3 
    Quake 3 bsp renderer
    ![Alt Screenshot](LibraryDemos/screenshot.png?raw=true "Screenshot")
+## Order Independant Transparency
+   Quickly hacked together demo of orde independant transparency
+   ![Alt Screenshot](LibraryDemos/oit.png?raw=true "Screenshot")

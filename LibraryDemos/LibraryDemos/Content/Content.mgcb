@@ -32,6 +32,36 @@
 /processorParam:DebugMode=Auto
 /build:Q3/basicQ3Effect.fx
 
+#begin Shaders/OITPass1.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Shaders/OITPass1.fx
+
+#begin Shaders/OITPass2.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Shaders/OITPass2.fx
+
+#begin Shaders/OITPass3.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Shaders/OITPass3.fx
+
+#begin Textures/OITBackdrop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/OITBackdrop.png
+
 #begin Trees/beil2.jpg
 /importer:TextureImporter
 /processor:TextureProcessor
